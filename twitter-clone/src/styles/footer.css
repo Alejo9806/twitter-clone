@@ -1,0 +1,27 @@
+.footer{
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.iconFooter{
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5em;
+    fill:rgb(83, 100, 113);
+    vertical-align: text-bottom;
+}
+.copy{
+    color: rgb(83, 100, 113);
+    font-size: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+    font-size: 13px;
+    margin-right: 0.5em;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+

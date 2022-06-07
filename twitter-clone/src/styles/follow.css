@@ -1,0 +1,73 @@
+.follow{
+   background-color: #F7F9F9;
+    border-radius: 1em;
+    padding-top: 0.3em;
+    margin-top: 1em;
+}
+
+.cardFollow{
+    padding: 1em;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    min-width: 0px;
+    flex-shrink: 1;
+    transition-delay: 0ms;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.cardFollow:hover{
+    background-color: #e6e1e1;
+}
+.infoFollow{
+    display: flex;
+    flex-direction: row;
+    gap: 0.1em;
+}
+
+.imgFollow{
+    border-radius: 100%;
+    margin-right: 0.8em;
+}
+
+.iconFollow{
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+    padding: 0;
+    fill:rgb(29, 155, 240);
+    border-radius: 100%;
+}
+
+.infoCreator{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.user{
+    width: 100%;
+    color: rgb(83, 100, 113);
+}
+
+.btnFollow{
+    background-color: #0F1419;
+    color: #FFFFFF;
+    border-radius: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow-wrap: break-word;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnFollow:hover{
+    opacity: 0.9;
+
+}
